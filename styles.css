@@ -31,22 +31,22 @@ nav ul li {
 }
 
 #container{
-  width: 1100px;
-  margin: 0px auto;
-  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+  overflow:inherit;
 }
 
 .article{
   margin-top: 15px;
   margin-bottom: 15px;
   padding-bottom: 10px;
-  border-bottom: 1px solid white #w;
+  border-bottom: 1px solid white;
 
 }
 
 .article:first-child{
   padding-top: 10px;
-  border-top: 1px solid white #w;
+  border-top: 1px solid white;
 }
 
 .article h2{
