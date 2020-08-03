@@ -47,11 +47,20 @@ nav ul li {
 #content{
   float: left;
   width: 80%;
+  min-height: 500px;
   background: red;
 }
 
 aside{
   float: left;
   width: 20%;
+  min-height: 500px;
   background: lightgray;
+}
+
+footer{
+  font-family:sans-serif;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
 }
