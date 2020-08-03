@@ -33,3 +33,7 @@ nav ul li {
 .article{
 
 }
+
+.clearfix{
+  clear:both;
+}
