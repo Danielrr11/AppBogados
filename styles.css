@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background: lightgray;
+  font-family: Arial, Calibri;
+
+}
+
+#container{
+  width: 1100px;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+
+header{
+  background: blue;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+}
+
+.article{
+
+}
