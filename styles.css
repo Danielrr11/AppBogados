@@ -37,9 +37,21 @@ nav ul li {
 }
 
 .article{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white #w;
 
 }
 
+.article:first-child{
+  padding-top: 10px;
+  border-top: 1px solid white #w;
+}
+
+.article h2{
+  font-size: 20px;
+}
 .clearfix{
   clear:both;
 }
