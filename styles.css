@@ -19,7 +19,7 @@ header{
 }
 
 nav{
-  background: lightgreen;
+  opacity:inherit;
   height: 50px;
 }
 
