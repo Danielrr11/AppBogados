@@ -5,8 +5,31 @@
 
 body{
   background: lightgray;
-  font-family: Arial, Calibri;
+  font-family: Arial, helvetica;
 
+}
+
+.d1 {
+  list-style: none;
+  padding: 0;
+  background: lightgreen;
+}
+
+.d1 li a{
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  display: block;
+
+}
+
+.d1 li{
+  display: inline-block;
+  text-align: center;
+}
+
+.d1 li a:hover{
+  background: green;
 }
 
 header{

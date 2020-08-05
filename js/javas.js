@@ -1,2 +1,1 @@
 window.alert("Bienvenido ");
-confirm();
