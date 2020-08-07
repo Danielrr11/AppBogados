@@ -1,6 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
@@ -32,6 +35,15 @@ body{
   background: green;
 }
 
+.menu-fixed{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 95%;
+  max-width: 1000px;
+  box-shadow: 0px 2px 2px black;
+}
+
 header{
   background: blue;
   height: 100px;
@@ -43,23 +55,37 @@ header{
 
 header h1{
   color: black;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 header nav{
-    position: absolute;
-    bottom: 0;
-    line-height: 60px;
-    width: 100%;
+  background: #3498db;
+  margin-bottom: 10px;
+  -webkit-transition: all ease
+
 }
 
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
 nav{
   opacity:inherit;
   height: 50px;
 }
 
 nav ul li {
-  float: left;
+  float:left;
   list-style: none;
   margin: 10px;
   line-height: 30px;
@@ -70,19 +96,20 @@ body.sticky-header{
 }
 
 body.sticky-header header{
-  height: 50px;
+  height: 60px;
   background: lightgreen;
 }
 
-body.sticky-header header h1{
+/*body.sticky-header header img{
   transform: scale(0, 0);
+}->efecto para del body texto*/
+body.sticky-header header h1{
+  transform: scale(0, 0);*/
 }
-
 #container{
-  width: 80%;
-  max-width: 80%;
-  margin: 0 auto;
-  overflow:inherit;
+  width: 95%;
+  max-width: 1000px;
+  margin:auto;
 }
 
 .article{
@@ -129,6 +156,6 @@ aside{
 footer{
   font-family:sans-serif;
   text-align: center;
-  height: 20px;
-  line-height: 20px;
+  height: 40px;
+  line-height: 40px;
 }
