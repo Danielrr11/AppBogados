@@ -15,17 +15,17 @@ body{
   background: lightgreen;
 }
 
+.d1 li{
+  display: inline-block;
+  text-align: center;
+}
+
 .d1 li a{
   text-decoration: none;
   color: black;
   padding: 0;
   display: block;
 
-}
-
-.d1 li{
-  display: inline-block;
-  text-align: center;
 }
 
 .d1 li a:hover{
@@ -41,6 +41,18 @@ header{
   line-height: 100px; /center-center
 }
 
+header h1{
+  color: black;
+  transition: all 0.3s ease;
+}
+
+header nav{
+    position: absolute;
+    bottom: 0;
+    line-height: 60px;
+    width: 100%;
+}
+
 nav{
   opacity:inherit;
   height: 50px;
@@ -51,6 +63,19 @@ nav ul li {
   list-style: none;
   margin: 10px;
   line-height: 30px;
+}
+
+body.sticky-header{
+  padding-top:50px;
+}
+
+body.sticky-header header{
+  height: 50px;
+  background: lightgreen;
+}
+
+body.sticky-header header h1{
+  transform: scale(0, 0);
 }
 
 #container{
