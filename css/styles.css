@@ -24,11 +24,10 @@ body{
 }
 
 .d1 li a{
-  text-decoration: none;
+  text-decoration:none;
   color: black;
-  padding: 0;
-  display: block;
-
+  padding: 10px;
+  display:inline-block;
 }
 
 .d1 li a:hover{
@@ -50,19 +49,18 @@ header{
   width: 100%;
   margin: 0px;
   text-align: center;
-  line-height: 100px; /center-center
+  line-height: 100px; /*center-center*/
 }
 
 header h1{
   color: black;
   transition: all 0.5s ease;
+  font-size: 20px;
 }
 
 header nav{
   background: #3498db;
   margin-bottom: 10px;
-  -webkit-transition: all ease
-
 }
 
 header nav ul {
@@ -76,27 +74,29 @@ header nav ul li{
 
 header nav ul li a{
   display: block;
-  padding: 20px;
-  text-decoration: none;
+  padding: 50px;
+  text-decoration:none;
 }
 nav{
   opacity:inherit;
   height: 50px;
+  box-shadow: 0px 2px 2px black;
+  margin-bottom: 2px;
 }
 
 nav ul li {
   float:left;
   list-style: none;
-  margin: 10px;
+  margin: 0px;
   line-height: 30px;
 }
 
 body.sticky-header{
-  padding-top:50px;
+  padding-top:0px;
 }
 
 body.sticky-header header{
-  height: 60px;
+  height: 10px;
   background: lightgreen;
 }
 
@@ -143,19 +143,19 @@ body.sticky-header header h1{
   float: left;
   width: 80%;
   min-height: 500px;
-  background: red;
+  background: white;
 }
 
 aside{
   float: left;
   width: 20%;
-  min-height: 500px;
-  background: lightgray;
+  background: orange;
+  min-height: 900px;
 }
 
 footer{
   font-family:sans-serif;
   text-align: center;
-  height: 40px;
+  height: 20px;
   line-height: 40px;
 }
