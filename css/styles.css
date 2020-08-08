@@ -120,11 +120,6 @@ body.sticky-header header h1{
 
 }
 
-.article:first-child{
-  padding-top: 10px;
-  border-top: 1px solid white;
-}
-
 .article h2{
   font-size: 20px;
   text-align: center;
@@ -149,8 +144,8 @@ body.sticky-header header h1{
 aside{
   float: left;
   width: 20%;
-  background: orange;
-  min-height: 900px;
+  background: lightgray;
+  min-height: 500px;
 }
 
 footer{
