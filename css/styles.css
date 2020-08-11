@@ -9,7 +9,6 @@
 body{
   background: lightgray;
   font-family: Arial, helvetica;
-
 }
 
 .d1 {
@@ -33,7 +32,6 @@ body{
 .d1 li a:hover{
   background: green;
 }
-
 .menu-fixed{
   position: fixed;
   z-index: 1000;
@@ -76,6 +74,7 @@ header nav ul li a{
   display: block;
   padding: 50px;
   text-decoration:none;
+
 }
 nav{
   opacity:inherit;
@@ -106,6 +105,7 @@ body.sticky-header header{
 body.sticky-header header h1{
   transform: scale(0, 0);*/
 }
+
 #container{
   width: 95%;
   max-width: 1000px;
