@@ -42,12 +42,12 @@ body{
 }
 
 header{
-  background: blue;
-  height: 100px;
+  background: white;
+  height: 192px;
   width: 100%;
   margin: 0px;
   text-align: center;
-  line-height: 100px; /*center-center*/
+  /*line-height: 192px; center-center*/
 }
 
 header h1{
@@ -99,11 +99,11 @@ body.sticky-header header{
   background: lightgreen;
 }
 
-/*body.sticky-header header img{
+body.sticky-header header img{
   transform: scale(0, 0);
-}->efecto para del body texto*/
+}/*->efecto para del body texto*/
 body.sticky-header header h1{
-  transform: scale(0, 0);*/
+  transform: scale(0, 0);
 }
 
 #container{
