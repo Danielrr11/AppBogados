@@ -30,7 +30,7 @@ body{
 }
 
 .d1 li a:hover{
-  background: green;
+  background: #35C425;
 }
 .menu-fixed{
   position: fixed;
@@ -74,8 +74,8 @@ header nav ul li a{
   display: block;
   padding: 50px;
   text-decoration:none;
-
 }
+
 nav{
   opacity:inherit;
   height: 50px;
@@ -101,11 +101,10 @@ body.sticky-header header{
 
 body.sticky-header header img{
   transform: scale(0, 0);
-}/*->efecto para del body texto*/
+}/*->efecto para del body texto
 body.sticky-header header h1{
   transform: scale(0, 0);
-}
-
+}*/
 #container{
   width: 95%;
   max-width: 1000px;

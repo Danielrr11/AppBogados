@@ -16,7 +16,7 @@ $(function () {
       $("body").removeClass("sticky-header");
     }
   })
-})
+});
 
 $(document).ready(function(){
   var alt = $('.d1').offset().top;
