@@ -1,4 +1,4 @@
-var txt="DANIEL RR -";
+var txt="Daniel RR -";
 var espera=200;
 var refresco= null;
 function rotulo_title() {
@@ -21,7 +21,7 @@ $(function () {
 $(document).ready(function(){
   var alt = $('.d1').offset().top;
   $(window).on('scroll', function() {
-    if ($(window).scrollTop() > alt ) {
+    if ($(window).scrollTop() > alt) {
       $('.d1').addClass('menu-fixed');
     }else {
       $('.d1').removeClass('menu-fixed');
