@@ -147,6 +147,10 @@ aside{
   min-height: 500px;
 }
 
+aside img {
+  position: fixed;
+}
+
 footer{
   font-family:sans-serif;
   text-align: center;
